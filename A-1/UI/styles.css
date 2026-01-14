@@ -1,0 +1,36 @@
+.line div{
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: top;
+}
+.container nav{
+    display:inline-flex;
+    box-sizing: border-box;
+    box-shadow: gray;
+    width: 1554px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 120px; 
+    flex-direction: row;
+    border:solid blue;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav li{ 
+    display: inline-flex;
+    margin-right: 20px;
+    align-items: center;
+}
+nav button{
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    align-items: right;
+}
